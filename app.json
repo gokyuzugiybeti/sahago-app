@@ -1,4 +1,4 @@
-{
+{{
   "expo": {
     "name": "SahaGo",
     "slug": "sahago-app",
@@ -9,15 +9,13 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.sahago.app"
+    },
+    "android": {
+      "package": "com.sahago.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
